@@ -559,6 +559,141 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._ddlmonth">
+<summary>
+ddlmonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._ddl_custexport">
+<summary>
+ddl_custexport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._dll_customer">
+<summary>
+dll_customer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._btn_export">
+<summary>
+btn_export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._txt_year">
+<summary>
+txt_year control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._ddlMontImp">
+<summary>
+ddlMontImp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._HyperLink1">
+<summary>
+HyperLink1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._Fileupload_customerdata">
+<summary>
+Fileupload_customerdata control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._btn_import">
+<summary>
+btn_import control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._ddl_countrow">
+<summary>
+ddl_countrow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mc_losstime_monitor._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PN_SYSTEM.frm_Metal_MC._form2">
 <summary>
 form2 control.
