@@ -126,7 +126,6 @@ Public Class frm_working_calendar
 
     Function InsertCalendar() As String
 
-
         Dim SaveLocation As String = ""
         If FileUpload1.HasFiles Then
 
