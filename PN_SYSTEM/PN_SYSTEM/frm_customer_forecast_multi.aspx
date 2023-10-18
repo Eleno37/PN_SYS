@@ -238,8 +238,6 @@
                                             <asp:TemplateField HeaderText="Delete">
                                                 <ItemTemplate>
                                                     <center>
-
-
                                                         <asp:ImageButton ID="ImgDel" runat="server" CommandName="DeleteRec" ImageUrl="~/image/delete.png" OnClientClick="return DelRecord()" />
                                                     </center>
                                                 </ItemTemplate>
