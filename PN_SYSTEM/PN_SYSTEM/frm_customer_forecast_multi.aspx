@@ -41,7 +41,7 @@
                                             <div class="col-md-2 col-sm-1 ">
                                                 <asp:DropDownList ID="ddlYear" runat="server" CssClass="form-control" Height="30px"></asp:DropDownList>
                                             </div>
-                                            <label class="col-form-label col-md-1 col-sm-1 ">Month :</label>
+                                            <label class="col-form-label col-md-1 col-sm-3 ">Month :</label>
                                             <div class="col-md-2 col-sm-1 ">
                                                 <asp:DropDownList ID="ddlmonth" runat="server" CssClass="form-control" Height="30px">
                                                     <asp:ListItem>01</asp:ListItem>
@@ -58,7 +58,7 @@
                                                     <asp:ListItem>12</asp:ListItem>
                                                 </asp:DropDownList>
                                             </div>
-                                            <label class="col-form-label col-md-1 col-sm-3 ">Plant :</label>
+                                            <label class="col-form-label col-md-1 col-sm-2 ">Plant :</label>
                                             <div class="col-md-2 col-sm-1 ">
                                                 <asp:DropDownList ID="ddl_custexport" runat="server" CssClass="form-control" Height="30px">
                                                     <asp:ListItem Value="0">ALL</asp:ListItem>
@@ -66,8 +66,8 @@
                                                     <asp:ListItem>IPP</asp:ListItem>
                                                 </asp:DropDownList>
                                             </div>
-                                            <label class="col-form-label col-md-1 col-sm-3 ">Customer:</label>
-                                            <div class="col-md-2 col-sm-3 ">
+                                            <label class="col-form-label col-md-1 col-sm-2 ">Customer:</label>
+                                            <div class="col-md-2 col-sm-2 ">
                                                 <asp:DropDownList ID="dll_customer" runat="server" CssClass="form-control" Height="30px">
                                                     <asp:ListItem>ALL</asp:ListItem>
                                                     <asp:ListItem>Other</asp:ListItem>
@@ -93,13 +93,40 @@
                 <div class="col-md-6 col-sm-12 ">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>Import Customer Data</h2>
+                            <h2>Import Customer Forecast</h2>
 
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
 
                             <div class="form-horizontal form-label-left">
+
+                                <div class="form-group row">
+                                    <label class="col-form-label col-md-2 col-sm-3 offset-md-2">Start Year :</label>
+                                    <div class="col-md-2 col-sm-1 ">
+                                        <asp:TextBox ID="txt_year" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <label class="col-form-label col-md-2 col-sm-1 ">Start Month :</label>
+                                    <div class="col-md-2 col-sm-1 ">
+                                        <asp:DropDownList ID="ddlMontImp" runat="server" CssClass="form-control" Height="30px">
+                                            <asp:ListItem>ALL</asp:ListItem>
+                                            <asp:ListItem>01</asp:ListItem>
+                                            <asp:ListItem>02</asp:ListItem>
+                                            <asp:ListItem>03</asp:ListItem>
+                                            <asp:ListItem>04</asp:ListItem>
+                                            <asp:ListItem>05</asp:ListItem>
+                                            <asp:ListItem>06</asp:ListItem>
+                                            <asp:ListItem>07</asp:ListItem>
+                                            <asp:ListItem>08</asp:ListItem>
+                                            <asp:ListItem>09</asp:ListItem>
+                                            <asp:ListItem>10</asp:ListItem>
+                                            <asp:ListItem>11</asp:ListItem>
+                                            <asp:ListItem>12</asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+
+                                </div>
+
 
                                 <div class="form-group row ">
                                     <div class="col-md-9 col-sm-9  offset-md-3">
@@ -160,16 +187,16 @@
                                 <div class="card-box table-responsive">
 
                                     <asp:GridView ID="gv_detail" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered" AllowSorting="True">
-                                        <columns>
+                                        <Columns>
                                             <asp:BoundField DataField="month" HeaderText="month" />
                                             <asp:BoundField DataField="file_import" HeaderText="file_import" />
                                             <asp:BoundField DataField="update_by" HeaderText="update_by" />
                                             <asp:BoundField DataField="record_date" HeaderText="record_date">
-                                                <headerstyle wrap="False" />
-                                                <itemstyle width="120px" wrap="False" />
+                                                <HeaderStyle Wrap="False" />
+                                                <ItemStyle Width="120px" Wrap="False" />
                                             </asp:BoundField>
 
-                                        </columns>
+                                        </Columns>
                                     </asp:GridView>
 
                                 </div>

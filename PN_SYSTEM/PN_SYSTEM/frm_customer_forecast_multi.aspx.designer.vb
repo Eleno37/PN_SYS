@@ -86,6 +86,24 @@ Partial Public Class frm_customer_forecast_multi
     Protected WithEvents btn_export As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''txt_year control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txt_year As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''ddlMontImp control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ddlMontImp As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
     '''HyperLink1 control.
     '''</summary>
     '''<remarks>

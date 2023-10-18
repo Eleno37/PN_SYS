@@ -347,7 +347,7 @@ Public Class frm_working_calendar
         Dim dat_now As String = Date.Now.ToString("dd_MM_yyyy")
         'Call md_export_excel.export_excel("CustomerData_Export " & dat_now, mdSQLCommand.load_customerdata("", 100))
 
-        export_class.TableToExcel("EXPORT_calendar_" & dat_now, mdSQLCommand.load_cuscalendar("", 2000))
+        export_class.TableToExcel("EXPORT_calendar_" & dat_now, mdSQLCommand.load_cuscalendar(ddlYear.SelectedItem.ToString, ddlYYYYMM.SelectedItem.ToString, txtSearch.Text))
 
     End Sub
 End Class
