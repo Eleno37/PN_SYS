@@ -370,6 +370,24 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._txt_year">
+<summary>
+txt_year control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._ddlMontImp">
+<summary>
+ddlMontImp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PN_SYSTEM.frm_customer_forecast_multi._HyperLink1">
 <summary>
 HyperLink1 control.
