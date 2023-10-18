@@ -307,6 +307,60 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._div_sucess">
+<summary>
+div_sucess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._lb_sucess">
+<summary>
+lb_sucess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._div_alert">
+<summary>
+div_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._lb_alert">
+<summary>
+lb_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._div_warning">
+<summary>
+div_warning control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._lb_warning">
+<summary>
+lb_warning control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:PN_SYSTEM.frm_customer_forecast_multi._txt_search">
 <summary>
 txt_search control.
@@ -370,9 +424,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PN_SYSTEM.frm_customer_forecast_multi._txt_year">
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._ddlYearImp">
 <summary>
-txt_year control.
+ddlYearImp control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -397,9 +451,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PN_SYSTEM.frm_customer_forecast_multi._Fileupload_customerdata">
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._Fileupload_cusforecast">
 <summary>
-Fileupload_customerdata control.
+Fileupload_cusforecast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._lblFileName">
+<summary>
+lblFileName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._btn_browse">
+<summary>
+btn_browse control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -409,6 +481,24 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PN_SYSTEM.frm_customer_forecast_multi._btn_import">
 <summary>
 btn_import control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._btn_clear">
+<summary>
+btn_clear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._gvdata">
+<summary>
+gvdata control.
 </summary>
 <remarks>
 Auto-generated field.

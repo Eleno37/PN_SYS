@@ -23,6 +23,60 @@ Partial Public Class frm_customer_forecast_multi
     Protected WithEvents form2 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''div_sucess control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents div_sucess As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lb_sucess control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lb_sucess As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''div_alert control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents div_alert As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lb_alert control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lb_alert As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''div_warning control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents div_warning As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''lb_warning control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lb_warning As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''txt_search control.
     '''</summary>
     '''<remarks>
@@ -86,13 +140,13 @@ Partial Public Class frm_customer_forecast_multi
     Protected WithEvents btn_export As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''txt_year control.
+    '''ddlYearImp control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txt_year As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents ddlYearImp As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''ddlMontImp control.
@@ -113,13 +167,31 @@ Partial Public Class frm_customer_forecast_multi
     Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''Fileupload_customerdata control.
+    '''Fileupload_cusforecast control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Fileupload_customerdata As Global.System.Web.UI.WebControls.FileUpload
+    Protected WithEvents Fileupload_cusforecast As Global.System.Web.UI.WebControls.FileUpload
+
+    '''<summary>
+    '''lblFileName control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblFileName As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''btn_browse control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btn_browse As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''btn_import control.
@@ -129,6 +201,24 @@ Partial Public Class frm_customer_forecast_multi
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btn_import As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btn_clear control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btn_clear As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''gvdata control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents gvdata As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''ddl_countrow control.
@@ -147,4 +237,31 @@ Partial Public Class frm_customer_forecast_multi
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents gv_detail As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''lblfile_name control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblfile_name As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''lblmonth control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblmonth As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtName control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtName As Global.System.Web.UI.WebControls.TextBox
 End Class
