@@ -5,4 +5,7 @@
 
     End Sub
 
+    Protected Sub btn_search_Click(sender As Object, e As EventArgs) Handles btn_search.Click
+
+    End Sub
 End Class
