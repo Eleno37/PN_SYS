@@ -1,0 +1,1337 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PN_SYSTEM
+</name>
+</assembly>
+<members>
+<member name="T:PN_SYSTEM.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:PN_SYSTEM.frm_Assy_MC_Matching._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_Assy_MC_Matching._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_Assy_MC_Matching._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_Assy_MC_Matching._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_Assy_MC_Matching._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_AVlosstime._form3">
+<summary>
+form3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_AVlosstime._txtDate">
+<summary>
+txtDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_AVlosstime._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_AVlosstime._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_AVlosstime._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_BOM._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_BOM._txt_serch">
+<summary>
+txt_serch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_BOM._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_BOM._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_BOM._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_curing_mold._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_curing_mold._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_curing_mold._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_curing_mold._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_curing_mold._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customerdata._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customerdata._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customerdata._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customerdata._btn_export">
+<summary>
+btn_export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customerdata._HyperLink1">
+<summary>
+HyperLink1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customerdata._Fileupload_customerdata">
+<summary>
+Fileupload_customerdata control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customerdata._btn_import">
+<summary>
+btn_import control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customerdata._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customerdata._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._ddlmonth">
+<summary>
+ddlmonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._ddl_custexport">
+<summary>
+ddl_custexport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._dll_customer">
+<summary>
+dll_customer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._btn_export">
+<summary>
+btn_export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._HyperLink1">
+<summary>
+HyperLink1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._Fileupload_customerdata">
+<summary>
+Fileupload_customerdata control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._btn_import">
+<summary>
+btn_import control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._ddl_countrow">
+<summary>
+ddl_countrow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_forecast._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_forecast._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_itemmaster._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_itemmaster._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_itemmaster._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_itemmaster._DropDownList2">
+<summary>
+DropDownList2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_itemmaster._btn_import">
+<summary>
+btn_import control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_itemmaster._btn_export">
+<summary>
+btn_export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_itemmaster._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_lose_time._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_lose_time._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_lose_time._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_lose_time._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_lose_time._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_Metal_MC._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_Metal_MC._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_Metal_MC._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_Metal_MC._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_Metal_MC._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_MoldList._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_MoldList._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_MoldList._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_MoldList._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_MoldList._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mold_list_master._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mold_list_master._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_WorkCenter._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_WorkCenter._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_WorkCenter._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_WorkCenter._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_WorkCenter._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._pnImport">
+<summary>
+pnImport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._lblError">
+<summary>
+lblError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._ddlYYYYMM">
+<summary>
+ddlYYYYMM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._txtSearch">
+<summary>
+txtSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._btnExportPecent">
+<summary>
+btnExportPecent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._gvImport">
+<summary>
+gvImport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm3._gvExport">
+<summary>
+gvExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm4._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_View_BOM_hierarchical._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._form2">
+<summary>
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._div_sucess">
+<summary>
+div_sucess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._lb_sucess">
+<summary>
+lb_sucess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._div_alert">
+<summary>
+div_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._lb_alert">
+<summary>
+lb_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._div_warning">
+<summary>
+div_warning control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._lb_warning">
+<summary>
+lb_warning control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._ddlYYYYMM">
+<summary>
+ddlYYYYMM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._txtSearch">
+<summary>
+txtSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._btn_export">
+<summary>
+btn_export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._HyperLink1">
+<summary>
+HyperLink1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._btn_import">
+<summary>
+btn_import control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._gvImport">
+<summary>
+gvImport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._gvExport">
+<summary>
+gvExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.Main._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.Main._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:PN_SYSTEM.SQL.sqlsrker">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.#ctor">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_Table_RunSQLSRKERCompleted">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_RunSQLSRKERCompleted">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.RunSQLCompleted">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.SelectSQLCompleted">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.SelectSQLGetComponentCompleted">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.SelectSQL_jsonCompleted">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_Table_RunSQLSRKER(System.String,System.Data.DataTable)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_Table_RunSQLSRKERAsync(System.String,System.Data.DataTable)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_Table_RunSQLSRKERAsync(System.String,System.Data.DataTable,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_RunSQLSRKER(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_RunSQLSRKERAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_RunSQLSRKERAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunSQL(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunSQLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunSQLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQL(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLGetComponent(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLGetComponentAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLGetComponentAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQL_json(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQL_jsonAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQL_jsonAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunStoredProcedure_Table_RunSQLSRKERCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunStoredProcedure_Table_RunSQLSRKERCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.RunStoredProcedure_Table_RunSQLSRKERCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunStoredProcedure_RunSQLSRKERCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunStoredProcedure_RunSQLSRKERCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.RunStoredProcedure_RunSQLSRKERCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunSQLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunSQLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.RunSQLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.SelectSQLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQLGetComponentCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQLGetComponentCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.SelectSQLGetComponentCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQL_jsonCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQL_jsonCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.SelectSQL_jsonCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm5._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm5._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm5._DropDownList2">
+<summary>
+DropDownList2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm5._btnsearch">
+<summary>
+btnsearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm5._gvWeeklyCalender">
+<summary>
+gvWeeklyCalender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm5._lblWorkingDays">
+<summary>
+lblWorkingDays control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm6._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm6._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._pnImport">
+<summary>
+pnImport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._lnkBtnFile">
+<summary>
+lnkBtnFile control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._FileUpload1">
+<summary>
+FileUpload1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._btnImport">
+<summary>
+btnImport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._UpdateProgress1">
+<summary>
+UpdateProgress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._lblError">
+<summary>
+lblError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._ddlYYYYMM">
+<summary>
+ddlYYYYMM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._txtSearch">
+<summary>
+txtSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._btnSearch">
+<summary>
+btnSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._btnExportPecent">
+<summary>
+btnExportPecent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._gvImport">
+<summary>
+gvImport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.working_calendar._gvExport">
+<summary>
+gvExport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

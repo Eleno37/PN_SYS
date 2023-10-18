@@ -1,0 +1,305 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PN_SYSTEM
+</name>
+</assembly>
+<members>
+<member name="T:PN_SYSTEM.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:PN_SYSTEM.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:PN_SYSTEM.frm_BOM._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_BOM._txt_serch">
+<summary>
+txt_serch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_BOM._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_BOM._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_forecast._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_forecast._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_itemmaster._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_itemmaster._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_lose_time._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_lose_time._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mold_list_master._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_mold_list_master._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm4._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_View_BOM_hierarchical._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_working_calendar._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.Main._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.Main._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:PN_SYSTEM.SQL.sqlsrker">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.#ctor">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_Table_RunSQLSRKERCompleted">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.RunSQLCompleted">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.SelectSQLCompleted">
+<remarks/>
+</member>
+<member name="E:PN_SYSTEM.SQL.sqlsrker.SelectSQLGetComponentCompleted">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_Table_RunSQLSRKER(System.String,System.Data.DataTable)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_Table_RunSQLSRKERAsync(System.String,System.Data.DataTable)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunStoredProcedure_Table_RunSQLSRKERAsync(System.String,System.Data.DataTable,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunSQL(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunSQLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.RunSQLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQL(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLGetComponent(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLGetComponentAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.SelectSQLGetComponentAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:PN_SYSTEM.SQL.sqlsrker.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunStoredProcedure_Table_RunSQLSRKERCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunStoredProcedure_Table_RunSQLSRKERCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.RunStoredProcedure_Table_RunSQLSRKERCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunSQLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.RunSQLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.RunSQLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.SelectSQLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQLGetComponentCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:PN_SYSTEM.SQL.SelectSQLGetComponentCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:PN_SYSTEM.SQL.SelectSQLGetComponentCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
