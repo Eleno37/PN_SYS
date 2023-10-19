@@ -43,7 +43,13 @@
                         <asp:ListItem>50</asp:ListItem>--%>
                         <asp:ListItem>100</asp:ListItem>
                         <asp:ListItem>200</asp:ListItem>
-                        <a href="frm_mc_losstime_monitor.aspx">frm_mc_losstime_monitor.aspx</a>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
                         <asp:ListItem>250</asp:ListItem>
                     </asp:DropDownList>
                 </div>
