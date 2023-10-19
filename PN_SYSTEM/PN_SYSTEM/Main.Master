@@ -103,6 +103,7 @@
                                 <li><a><i class="fa fa-desktop"></i>Mornitoring <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                         <li><a href="##">AV Capacity</a></li>
+                                        <li><a href="frm_mc_losstime_monitoring.aspx">MC Loss time</a></li>
                                         <li><a href="frm_View_BOM_hierarchical.aspx">BOM View dept level</a></li>
                                         <%--    <li><a href="##">--</a></li>
                       <li><a href="##">--</a></li>

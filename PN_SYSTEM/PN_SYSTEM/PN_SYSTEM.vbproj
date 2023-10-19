@@ -156,6 +156,7 @@
     <Content Include="frm_itemmaster.aspx" />
     <Content Include="frm_login.aspx" />
     <Content Include="frm_lose_time.aspx" />
+    <Content Include="frm_mc_losstime_monitoring.aspx" />
     <Content Include="frm_Metal_MC.aspx" />
     <Content Include="frm_MoldList.aspx" />
     <Content Include="frm_mold_list_master.aspx" />
@@ -3984,6 +3985,13 @@
     </Compile>
     <Compile Include="frm_lose_time.aspx.vb">
       <DependentUpon>frm_lose_time.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_mc_losstime_monitoring.aspx.designer.vb">
+      <DependentUpon>frm_mc_losstime_monitoring.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_mc_losstime_monitoring.aspx.vb">
+      <DependentUpon>frm_mc_losstime_monitoring.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frm_Metal_MC.aspx.designer.vb">
