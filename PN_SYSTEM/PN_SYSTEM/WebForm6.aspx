@@ -8,23 +8,25 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-                <div class ="row">
-           <div class="dataTables_length" id="datatable_length">
-               <div class="col-sm-6">
-                   <label>Show</label>
-               </div>
-               <div class="col-sm-6 col-md-1">
-               <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" CssClass="form-control" >
-                    <asp:ListItem>10</asp:ListItem>
-                    <asp:ListItem>25</asp:ListItem>
-                    <asp:ListItem>50</asp:ListItem>
-                    <asp:ListItem>100</asp:ListItem>
-                </asp:DropDownList>
-               </div>
-               <label>Entries</label><a href="WebForm4.aspx">WebForm4.aspx</a>
-           </div>    
-</div>
+        <div class="row">
+
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false">
+                <Columns>
+                    <asp:TemplateField HeaderText="Name" ItemStyle-Width="150">
+                        <ItemTemplate>
+                            <asp:Label ID="lblName" runat="server" Text='<%# Eval("Id") %>'></asp:Label>
+                            <%--<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>--%>
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                    <asp:BoundField DataField="Country" HeaderText="Country" ItemStyle-Width="150px" />
+                    <asp:TemplateField>
+                        <ItemTemplate>
+                            <asp:Button Text="Select" runat="server" CommandName="Select" CommandArgument="<%# Container.DataItemIndex %>" />
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                </Columns>
+            </asp:GridView>
+
         </div>
     </form>
 </body>
