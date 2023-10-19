@@ -20,9 +20,6 @@ Public Class frm_customer_forecast_multi
         Next
     End Sub
 
-    Protected Sub btn_search_Click(sender As Object, e As EventArgs) Handles btn_search.Click
-
-    End Sub
 
     Private Sub load_grid_detail(ByVal txt_search As String, ddlplant As String, ddl_countrow As Integer)
 

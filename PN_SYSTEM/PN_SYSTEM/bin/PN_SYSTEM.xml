@@ -1189,9 +1189,243 @@ To modify move field declaration from designer file to code-behind file.
 <member name="P:PN_SYSTEM.SQL.SelectSQL_jsonCompletedEventArgs.Result">
 <remarks/>
 </member>
-<member name="F:PN_SYSTEM.WebForm2._form1">
+<member name="F:PN_SYSTEM.WebForm2._form2">
 <summary>
-form1 control.
+form2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._div_sucess">
+<summary>
+div_sucess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._lb_sucess">
+<summary>
+lb_sucess control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._div_alert">
+<summary>
+div_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._lb_alert">
+<summary>
+lb_alert control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._div_warning">
+<summary>
+div_warning control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._lb_warning">
+<summary>
+lb_warning control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._txt_search">
+<summary>
+txt_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._ddlYear">
+<summary>
+ddlYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._ddlmonth">
+<summary>
+ddlmonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._ddl_custexport">
+<summary>
+ddl_custexport control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._dll_customer">
+<summary>
+dll_customer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._btn_search">
+<summary>
+btn_search control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._btn_export">
+<summary>
+btn_export control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._ddlYearImp">
+<summary>
+ddlYearImp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._ddlMontImp">
+<summary>
+ddlMontImp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._HyperLink1">
+<summary>
+HyperLink1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._Fileupload_cusforecast">
+<summary>
+Fileupload_cusforecast control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._lblFileName">
+<summary>
+lblFileName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._btn_browse">
+<summary>
+btn_browse control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._btn_import">
+<summary>
+btn_import control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._btn_clear">
+<summary>
+btn_clear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._gvdata">
+<summary>
+gvdata control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._ddl_countrow">
+<summary>
+ddl_countrow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._gv_detail">
+<summary>
+gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._lblmonth">
+<summary>
+lblmonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.WebForm2._GridView1">
+<summary>
+GridView1 control.
 </summary>
 <remarks>
 Auto-generated field.

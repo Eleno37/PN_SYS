@@ -12,8 +12,6 @@
 
                     <h3>Customer Forecast</h3>
                 </div>
-
-
                 <div class="col-md-6 col-sm-12 ">
                     <div class="x_panel">
                         <div class="x_title">
@@ -73,10 +71,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
             <div class="row" style="margin-bottom: 10px;">
                 <div class="Center" style="padding-top: 5px; text-align: center;">
                     <label>Show</label>
@@ -100,29 +94,38 @@
                 <div class="col-md-12 col-sm-12  ">
                     <div class="x_panel">
                         <div class="x_content">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="card-box table-responsive">
+                            <%--  <div class="row">
+                                <div class="col-sm-12">--%>
+                            <div class="card-box table-responsive">
 
-                                        <asp:GridView ID="gv_detail" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered" AllowSorting="True">
-                                            <Columns>
-                                                <asp:BoundField DataField="month" HeaderText="month" />
-                                                <asp:BoundField DataField="file_import" HeaderText="file_import" />
-                                                <asp:BoundField DataField="update_by" HeaderText="update_by" />
-                                                <asp:BoundField DataField="record_date" HeaderText="record_date">
-                                                    <HeaderStyle Wrap="False" />
-                                                    <ItemStyle Width="120px" Wrap="False" />
-                                                </asp:BoundField>
+                                <asp:GridView ID="gv_detail" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered" AllowSorting="True">
+                                    <Columns>
+                                        <asp:BoundField DataField="month_year" HeaderText="month_year" />
+                                        <asp:BoundField DataField="ltmc" HeaderText="ltmc" />
+                                        <asp:BoundField DataField="ltcode" HeaderText="ltcode" />
+                                        <asp:BoundField DataField="ltshift" HeaderText="ltshift">
+                                            <HeaderStyle Wrap="False" />
+                                            <ItemStyle Width="120px" Wrap="False" />
+                                        </asp:BoundField>
 
-                                            </Columns>
-                                        </asp:GridView>
+                                        <asp:BoundField DataField="description" HeaderText="description" />
+                                        <asp:BoundField DataField="Line" HeaderText="Line" />
+                                        <asp:BoundField DataField="Pro_Group" HeaderText="Pro_Group" />
+                                        <asp:BoundField DataField="Work_Center" HeaderText="Work_Center" />
+                                        <asp:BoundField DataField="Len" HeaderText="Len" />
+                                        <asp:BoundField DataField="Work_Des" HeaderText="Work_Des" />
+                                        <asp:BoundField DataField="LossTimeName" HeaderText="LossTimeName" />
+                                        <asp:BoundField DataField="Loss_Time_Min" HeaderText="Loss_Time_Min" />
+                                        <asp:BoundField DataField="Loss_Time_HR" HeaderText="Loss_Time_HR" />
 
-                                    </div>
-                                </div>
+                                    </Columns>
+                                </asp:GridView>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </form>
 </asp:Content>
