@@ -28,6 +28,26 @@
             </asp:GridView>
 
         </div>
+        <div class="row">
+
+            <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="false">
+                <Columns>
+                    <asp:TemplateField HeaderText="Name" ItemStyle-Width="150">
+                        <ItemTemplate>
+                            <asp:Label ID="lblName" runat="server" Text='<%# Eval("Id") %>'></asp:Label>
+                            <%--<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>--%>
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                    <asp:BoundField DataField="Country" HeaderText="Country" ItemStyle-Width="150px" />
+                    <asp:TemplateField>
+                        <ItemTemplate>
+                            <asp:Button Text="Select" runat="server" CommandName="Select" CommandArgument="<%# Container.DataItemIndex %>" />
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                </Columns>
+            </asp:GridView>
+
+        </div>
     </form>
 </body>
 </html>
