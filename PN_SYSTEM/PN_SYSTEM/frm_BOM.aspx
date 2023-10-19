@@ -38,11 +38,24 @@
                 </div>
                 <div class="col-sm-1">
                     <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" CssClass="form-control">
-                        <%--<asp:ListItem>10</asp:ListItem>
+                        <asp:ListItem>10</asp:ListItem>
                         <asp:ListItem>25</asp:ListItem>
-                        <asp:ListItem>50</asp:ListItem>--%>
+                        <asp:ListItem>50</asp:ListItem>
                         <asp:ListItem>100</asp:ListItem>
                         <asp:ListItem>200</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
+                        <asp:ListItem>250</asp:ListItem>
                         <asp:ListItem>250</asp:ListItem>
                         <asp:ListItem>250</asp:ListItem>
                         <asp:ListItem>250</asp:ListItem>
