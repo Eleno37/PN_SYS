@@ -38,11 +38,12 @@
                 </div>
                 <div class="col-sm-1">
                     <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" CssClass="form-control">
-                        <asp:ListItem>10</asp:ListItem>
+                        <%--<asp:ListItem>10</asp:ListItem>
                         <asp:ListItem>25</asp:ListItem>
-                        <asp:ListItem>50</asp:ListItem>
+                        <asp:ListItem>50</asp:ListItem>--%>
                         <asp:ListItem>100</asp:ListItem>
                         <asp:ListItem>200</asp:ListItem>
+                        <a href="frm_mc_losstime_monitor.aspx">frm_mc_losstime_monitor.aspx</a>
                         <asp:ListItem>250</asp:ListItem>
                     </asp:DropDownList>
                 </div>
@@ -59,24 +60,24 @@
                                 <div class="col-sm-12">
                                     <div class="card-box table-responsive">
                                         <asp:GridView ID="gv_detail" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered" AllowSorting="True">
-                                            <columns>
+                                            <Columns>
                                                 <asp:BoundField DataField="Top_Level_Part_IFS_Code_X" HeaderText="TopLevel" />
                                                 <asp:BoundField DataField="Contract" HeaderText="contract" />
                                                 <asp:BoundField DataField="Lv" HeaderText="Level">
-                                                    <itemstyle width="120px" wrap="False" />
+                                                    <ItemStyle Width="120px" Wrap="False" />
                                                 </asp:BoundField>
                                                 <asp:BoundField DataField="Parent_Part_IFS_Code_X" HeaderText="ParentsPart" />
                                                 <asp:BoundField DataField="Child_Part_Code_X" HeaderText="ChildPart" />
                                                 <asp:BoundField DataField="QTY" HeaderText="Qty" />
                                                 <asp:BoundField DataField="Unit" HeaderText="UNIT" />
                                                 <asp:BoundField DataField="Product_fam" HeaderText="Product Family">
-                                                    <itemstyle width="120px" wrap="False" />
+                                                    <ItemStyle Width="120px" Wrap="False" />
                                                 </asp:BoundField>
                                                 <asp:BoundField DataField="Operation_no" HeaderText="Operation" />
                                                 <asp:BoundField DataField="Process_Group" HeaderText="Process Group" />
                                                 <asp:BoundField DataField="Process_Descript" HeaderText="Process Description" />
                                                 <asp:BoundField DataField="LastUpdate" HeaderText="Last Update" />
-                                            </columns>
+                                            </Columns>
                                         </asp:GridView>
 
                                     </div>
