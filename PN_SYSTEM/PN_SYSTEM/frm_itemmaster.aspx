@@ -50,8 +50,8 @@
                     <label>Entries</label>
                 </div>
                 <div class="col-md-5 col-sm-5   form-group pull-right">
-                    <asp:Button ID="btn_import" runat="server" Text="IMPORT" class="btn btn-success" />
-                    <asp:Button ID="btn_export" runat="server" Text="EXPORT" class="btn btn-info" />
+                    <asp:Button ID="btn_import" runat="server" Text="IMPORT" class="btn btn-success" Visible="false" />
+                    <asp:Button ID="btn_export" runat="server" Text="EXPORT" class="btn btn-info" Visible="false" />
 
                 </div>
             </div>

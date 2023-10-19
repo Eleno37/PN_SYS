@@ -86,7 +86,7 @@
                                             </div>
                                             <label class="col-form-label col-md-1 col-sm-2 ">Plant :</label>
                                             <div class="col-md-2 col-sm-1 ">
-                                                <asp:DropDownList ID="ddl_custexport" runat="server" CssClass="form-control" Height="30px">
+                                                <asp:DropDownList ID="ddl_plant" runat="server" CssClass="form-control" Height="30px">
                                                     <asp:ListItem Value="0">ALL</asp:ListItem>
                                                     <asp:ListItem>ESIE</asp:ListItem>
                                                     <asp:ListItem>IPP</asp:ListItem>
@@ -151,6 +151,7 @@
                                             <asp:ListItem>12</asp:ListItem>
                                         </asp:DropDownList>
                                     </div>
+                                    <asp:Label ID="warning" runat="server" Text="*Request" ForeColor="#CC0000" Font-Bold="True"></asp:Label>
 
                                 </div>
 
@@ -165,7 +166,6 @@
                                         <div class="input-group">
                                             <asp:FileUpload CssClass="form-control" ID="Fileupload_cusforecast" runat="server" />
                                             <asp:Label ID="lblFileName" runat="server"></asp:Label>
-
                                         </div>
 
                                         <div class="col-md-9 col-sm-9  offset-md-4">
@@ -219,29 +219,26 @@
                             <div class="col-sm-12">
                                 <div class="card-box table-responsive">
 
-                                    <asp:GridView ID="gv_detail" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered" AllowSorting="True" OnRowCommand="gvdata_RowCommand">
+                                    <asp:GridView ID="gv_detail" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered" AllowSorting="True">
                                         <Columns>
-                                            <asp:TemplateField HeaderText="month"></asp:TemplateField>
-                                            <asp:TemplateField HeaderText="file_name">
-                                                <asp:textbox ID="lblfile_name" runat="server" Text='<%#Eval("file_name") %>' Width="60px" visible="false"></asp:textbox>
 
-                                                <asp:TemplateField HeaderText="Name" ItemStyle-Width="150">
-
-                                                    <asp:itemtemplate>
-                                                        <asp:textbox ID="lblmonth" runat="server" Text='<%#Eval("month") %>' Width="60px" visible="false" />
-                                                        <asp:TextBox ID="txtName" runat="server" Text='<%# Eval("Name") %>' />
-
-                                                    </asp:itemtemplate>
-                                                </asp:TemplateField>
-
+                                            <asp:TemplateField HeaderText="file_name" Visible="false">
+                                                <ItemTemplate>
+                                                    <asp:Label ID="lblfile_name" runat="server" Text='<%#Eval("file_import") %>' Width="60px"></asp:Label>
+                                                </ItemTemplate>
                                             </asp:TemplateField>
+                                            <asp:TemplateField HeaderText="Name" ItemStyle-Width="150" Visible="false">
+
+                                                <asp:ItemTemplate>
+                                                    <q></q>
+                                                    <asp:TextBox ID="lblmonth" runat="server" Text='<%#Eval("month") %>' Width="60px" />
+                                                    <asp:TextBox ID="txtName" runat="server" Text='<%# Eval("Name") %>' />
+                                                </asp:ItemTemplate>
+                                            </asp:TemplateField>
+
                                             <asp:TemplateField HeaderText="Delete">
                                                 <ItemTemplate>
-                                                    <center>
-
-
-                                                        <asp:ImageButton ID="ImgDel" runat="server" CommandName="DeleteRec" ImageUrl="~/image/delete.png" OnClientClick="return DelRecord()" />
-                                                    </center>
+                                                    <asp:ImageButton ID="ImgDel" runat="server" CommandName="DeleteRec" ImageUrl="~/image/delete.png" OnClientClick="return DelRecord()" />
                                                 </ItemTemplate>
                                             </asp:TemplateField>
                                             <asp:BoundField DataField="month" HeaderText="month" />

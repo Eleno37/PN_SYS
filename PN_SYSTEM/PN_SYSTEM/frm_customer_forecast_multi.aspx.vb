@@ -27,7 +27,7 @@ Public Class frm_customer_forecast_multi
     'End Sub
 
     Protected Sub btn_search_Click(sender As Object, e As EventArgs) Handles btn_search.Click
-
+        show_data()
     End Sub
 
     Private Sub load_grid_detail(ByVal txt_search As String, ddlplant As String, ddl_countrow As Integer)
@@ -57,13 +57,12 @@ Public Class frm_customer_forecast_multi
     Sub show_yearImp()
         Dim start_year As Integer = 2022
         Dim year As Integer = Date.Now.Year
-        ddlYear.Items.Clear()
+        ddlYearImp.Items.Clear()
         For i As Integer = start_year To year + 1
             ddlYearImp.Items.Add(New ListItem(i))
             ddlYearImp.Items.FindByValue(year)
-            ddlYearImp.SelectedIndex = ddlYear.Items.IndexOf(ddlYearImp.Items.FindByText(year))
+            ddlYearImp.SelectedIndex = ddlYearImp.Items.IndexOf(ddlYearImp.Items.FindByText(year))
         Next
-
     End Sub
 
     Protected Sub btn_import_Click(sender As Object, e As EventArgs) Handles btn_import.Click
@@ -199,5 +198,86 @@ Public Class frm_customer_forecast_multi
         Fileupload_cusforecast.Attributes.Clear()
     End Sub
 
+    'Protected Sub gvdata_RowCommand(sender As Object, e As GridViewCommandEventArgs) Handles gvdata.RowCommand
+    '    If e.CommandName = "Select" Then
+
+    '        'Determine the RowIndex of the Row whose Button was clicked.
+    '        Dim rowIndex As Integer = Convert.ToInt32(e.CommandArgument)
+
+    '        'Reference the GridView Row.
+    '        Dim row As GridViewRow = gvdata.Rows(rowIndex)
+
+    '        'Fetch value of Name.
+    '        'Dim name As String = TryCast(row.FindControl("txtName"), Label).Text
+
+    '        'Fetch value of Country.
+    '        Dim country As String = row.Cells(1).Text
+
+    '        'ClientScript.RegisterStartupScript(Me.GetType(), "alert", "alert('Name: " & name & "\nCountry: " & country + "');", True)
+
+    '    End If
+    'End Sub
+
+    Protected Sub gvdata_RowCommand(sender As Object, e As GridViewCommandEventArgs) Handles gvdata.RowCommand
+        'If e.CommandName = "Select" Then
+        '    'Determine the RowIndex of the Row whose Button was clicked.
+        '    Dim rowIndex As Integer = Convert.ToInt32(e.CommandArgument)
+
+
+
+        '    'Reference the GridView Row.
+        '    Dim row As GridViewRow = gvdata.Rows(rowIndex)
+
+
+
+        '    'Fetch value of Name.
+        '    Dim name As String = TryCast(row.FindControl("lblName"), Label).Text
+
+
+
+        '    'Fetch value of Country.
+        '    Dim country As String = row.Cells(1).Text
+
+
+
+        '    ClientScript.RegisterStartupScript(Me.GetType(), "alert", "alert('Name: " & name & "\nCountry: " & country + "');", True)
+        'End If
+    End Sub
+
+    Sub show_data()
+        Dim sql As String
+
+        Dim DTData As DataTable
+        sql = "SELECT  month,file_import,update_by,record_date FROM tblCustomersForecast "
+        sql &= " WHERE flag='1' "
+        sql &= " AND  left(month,4) = '" & ddlYear.SelectedValue & "' "
+        If ddlmonth.SelectedIndex <> 0 Then
+            sql &= " AND month = '" & ddlmonth.SelectedValue & "' "
+        End If
+        If txt_search.Text <> "" Then
+            sql &= " AND (customer_no like '%" & txt_search.Text & "%' OR customer_name like '%" & txt_search.Text & "%' OR part_no like '%" & txt_search.Text & "%' OR MFG_NO like '%" & txt_search.Text & "%') "
+        End If
+        If ddl_plant.SelectedIndex <> 0 Then
+            sql &= " AND plant = '" & ddl_plant.SelectedValue & "' "
+        End If
+        sql &= " AND import_type = 'MULTI' "
+        sql &= " GROUP BY month,file_import,update_by,record_date"
+        DTData = mdSQLCommand.TokaiwsSQL.SelectSQL(sql).Tables(0)
+        If DTData.Rows.Count > 0 Then
+            gv_detail.DataSource = DTData
+            gv_detail.DataBind()
+        Else
+            DTData.Rows.Add(DTData.NewRow())
+            gv_detail.DataSource = DTData
+            gv_detail.DataBind()
+            Dim columnCount As Integer = gv_detail.Rows(0).Cells.Count
+            gv_detail.Rows(0).Cells.Clear()
+            gv_detail.Rows(0).Cells.Add(New TableCell)
+            gv_detail.Rows(0).Cells(0).ColumnSpan = columnCount
+            gv_detail.Rows(0).Cells(0).HorizontalAlign = HorizontalAlign.Center
+            gv_detail.Rows(0).Cells(0).CssClass = "txt-red-13"
+            gv_detail.Rows(0).Cells(0).Text = "No Records Found."
+        End If
+    End Sub
 
 End Class

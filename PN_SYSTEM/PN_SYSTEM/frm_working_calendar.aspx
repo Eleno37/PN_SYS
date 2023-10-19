@@ -152,11 +152,9 @@
                                         <Columns>
                                             <asp:TemplateField HeaderText="Delete">
                                                 <ItemTemplate>
-                                                    <center>
-                                                        <asp:Label ID="lblCust" runat="server" Text='<%# Eval("customer_no") %>' Visible="false"></asp:Label>
-                                                        <asp:ImageButton ID="ImgDel" runat="server" CommandArgument='<%# Eval("month") %>'
-                                                            CommandName="DeleteRec" ImageUrl="~/image/delete.png" OnClientClick="return DelRecord()" />
-                                                    </center>
+                                                    <asp:Label ID="lblCust" runat="server" Text='<%# Eval("customer_no") %>' Visible="false"></asp:Label>
+                                                    <asp:ImageButton ID="ImgDel" runat="server" CommandArgument='<%# Eval("month") %>'
+                                                        CommandName="DeleteRec" ImageUrl="~/image/delete.png" OnClientClick="return DelRecord()" />
                                                 </ItemTemplate>
                                             </asp:TemplateField>
                                             <asp:BoundField DataField="Month" HeaderText="Month" />

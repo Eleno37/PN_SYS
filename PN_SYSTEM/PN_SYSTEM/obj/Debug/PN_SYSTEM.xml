@@ -388,9 +388,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PN_SYSTEM.frm_customer_forecast_multi._ddl_custexport">
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._ddl_plant">
 <summary>
-ddl_custexport control.
+ddl_plant control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -436,6 +436,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PN_SYSTEM.frm_customer_forecast_multi._ddlMontImp">
 <summary>
 ddlMontImp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._warning">
+<summary>
+warning control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -517,6 +526,24 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:PN_SYSTEM.frm_customer_forecast_multi._gv_detail">
 <summary>
 gv_detail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._lblmonth">
+<summary>
+lblmonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:PN_SYSTEM.frm_customer_forecast_multi._txtName">
+<summary>
+txtName control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1297,9 +1324,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:PN_SYSTEM.WebForm6._DropDownList1">
+<member name="F:PN_SYSTEM.WebForm6._GridView1">
 <summary>
-DropDownList1 control.
+GridView1 control.
 </summary>
 <remarks>
 Auto-generated field.

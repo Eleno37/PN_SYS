@@ -33,10 +33,11 @@ Module mdSQLCommand
     Public Function load_AVBOM(ByVal TopLv As String, num_row As Integer) As DataTable
         Dim sql As String = ""
         sql &= "SELECT TOP " & num_row
-        sql &= " AV_TopLevelByItem, AV_contract, AV_Level, AV_ParentsPartByItemIFS, AV_ChildPart, AV_QtyUsege, AV_UNIT_MEAS, AV_LastUpdate"
-        sql &= "        FROM tblAVBOM"
-        If TopLv <> "" Then sql &= " WHERE  (AV_TopLevelByItem Like N'%" & TopLv & "%')"
-        Dim stable As DataTable = TokaiwsSQL.SelectSQL(sql).Tables(0)
+        sql &= " Top_Level_Part_IFS_Code_X, Contract, Lv, Parent_Part_IFS_Code_X, Child_Part_Code_X, QTY, Unit, Product_fam, Operation_no, Process_Group, Process_Descript, LastUpdate"
+        sql &= "        FROM tblAVProductStructure"
+        If TopLv <> "" Then sql &= " WHERE  (Top_Level_Part_IFS_Code_X Like N'%" & TopLv & "%')"
+        Dim json As String = TokaiwsSQL.SelectSQL_json(sql)
+        Dim stable As DataTable = Newtonsoft.Json.JsonConvert.DeserializeObject(Of DataTable)(json)
         Return stable
     End Function
 
@@ -281,7 +282,8 @@ Module mdSQLCommand
         From tblCustomersName
                 Where flag = '1'"
         If Toplv_cusdata <> "" Then sql &= " AND (customer_code Like N'%" & Toplv_cusdata & "%') Or (customer_name Like N'%" & Toplv_cusdata & "%') or (customer_short_name Like N'%" & Toplv_cusdata & "%')"
-        Dim stable As DataTable = TokaiwsSQL.SelectSQL(sql).Tables(0)
+        Dim json As String = TokaiwsSQL.SelectSQL_json(sql)
+        Dim stable As DataTable = Newtonsoft.Json.JsonConvert.DeserializeObject(Of DataTable)(json)
         Return stable
     End Function
 

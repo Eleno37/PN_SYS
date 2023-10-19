@@ -59,18 +59,22 @@
                                     <div class="card-box table-responsive">
                                         <asp:GridView ID="gv_detail" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered" AllowSorting="True">
                                             <Columns>
-                                                <asp:BoundField DataField="AV_TopLevelByItem" HeaderText="TopLevelByItem" />
-                                                <asp:BoundField DataField="AV_contract" HeaderText="contract" />
-                                                <asp:BoundField DataField="AV_Level" HeaderText="Level">
+                                                <asp:BoundField DataField="Top_Level_Part_IFS_Code_X" HeaderText="TopLevel" />
+                                                <asp:BoundField DataField="Contract" HeaderText="contract" />
+                                                <asp:BoundField DataField="Lv" HeaderText="Level">
                                                     <ItemStyle Width="120px" Wrap="False" />
                                                 </asp:BoundField>
-                                                <asp:BoundField DataField="AV_ParentsPartByItemIFS" HeaderText="ParentsPartByItemIFS" />
-                                                <asp:BoundField DataField="AV_ChildPart" HeaderText="ChildPart" />
-                                                <asp:BoundField DataField="AV_QtyUsege" HeaderText="QtyUsege" />
-                                                <asp:BoundField DataField="AV_UNIT_MEAS" HeaderText="UNIT_MEAS" />
-                                                <asp:BoundField DataField="AV_LastUpdate" HeaderText="LastUpdate">
+                                                <asp:BoundField DataField="Parent_Part_IFS_Code_X" HeaderText="ParentsPart" />
+                                                <asp:BoundField DataField="Child_Part_Code_X" HeaderText="ChildPart" />
+                                                <asp:BoundField DataField="QTY" HeaderText="Qty" />
+                                                <asp:BoundField DataField="Unit" HeaderText="UNIT" />
+                                                <asp:BoundField DataField="Product_fam" HeaderText="Product Family">
                                                     <ItemStyle Width="120px" Wrap="False" />
                                                 </asp:BoundField>
+                                                <asp:BoundField DataField="Operation_no" HeaderText="Operation" />
+                                                <asp:BoundField DataField="Process_Group" HeaderText="Process Group" />
+                                                <asp:BoundField DataField="Process_Descript" HeaderText="Process Description" />
+                                                <asp:BoundField DataField="LastUpdate" HeaderText="Last Update" />
                                             </Columns>
                                         </asp:GridView>
 

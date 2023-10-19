@@ -104,13 +104,13 @@ Partial Public Class frm_customer_forecast_multi
     Protected WithEvents ddlmonth As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''ddl_custexport control.
+    '''ddl_plant control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ddl_custexport As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents ddl_plant As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''dll_customer control.
@@ -156,6 +156,15 @@ Partial Public Class frm_customer_forecast_multi
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ddlMontImp As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''warning control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents warning As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''HyperLink1 control.
@@ -237,15 +246,6 @@ Partial Public Class frm_customer_forecast_multi
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents gv_detail As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''lblfile_name control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblfile_name As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''lblmonth control.
