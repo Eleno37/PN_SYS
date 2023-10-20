@@ -8,19 +8,17 @@
         <div class="">
             <div class="clearfix"></div>
             <div class="row">
-                <div class="page-title">
+                <div class="page-title" style="margin: 0px 0px 0px 10px;">
 
-                    <h3>Customer Forecast</h3>
+                    <h3>MC Loss time</h3>
                 </div>
-
-
                 <div class="col-md-6 col-sm-12 ">
                     <div class="x_panel">
-                        <div class="x_title">
+                        <%--<div class="x_title">
                             <h2>Search</h2>
 
                             <div class="clearfix"></div>
-                        </div>
+                        </div>--%>
                         <div class="x_content">
 
                             <div class="form-horizontal form-label-left">
@@ -30,18 +28,24 @@
                                     <div class="col-sm-12">
 
                                         <div class="form-group row">
-                                            <label class="col-form-label col-md-1 col-sm-3 ">Search: </label>
+                                            <div class="col-md-2 col-sm-3 ">
+                                                <label class="col-form-label col-md-1 col-sm-3 ">Search</label>
+                                            </div>
                                             <div class="col-md-10 col-sm-3 ">
                                                 <asp:TextBox ID="txt_search" runat="server" CssClass="form-control"></asp:TextBox>
                                             </div>
                                         </div>
 
                                         <div class="form-group row">
-                                            <label class="col-form-label col-md-1 col-sm-1 ">Year :</label>
-                                            <div class="col-md-2 col-sm-1 ">
+                                            <div class="col-md-2 col-sm-3 ">
+                                                <label class="col-form-label col-md-1 col-sm-1 ">Year</label>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 ">
                                                 <asp:DropDownList ID="ddlYear" runat="server" CssClass="form-control" Height="30px"></asp:DropDownList>
                                             </div>
-                                            <label class="col-form-label col-md-1 col-sm-3 ">Month :</label>
+                                            <div class="col-md-2 col-sm-3 ">
+                                                <label class="col-form-label col-md-1 col-sm-1 ">Month</label>
+                                            </div>
                                             <div class="col-md-2 col-sm-1 ">
                                                 <asp:DropDownList ID="ddlmonth" runat="server" CssClass="form-control" Height="30px">
                                                     <asp:ListItem>01</asp:ListItem>
@@ -58,124 +62,38 @@
                                                     <asp:ListItem>12</asp:ListItem>
                                                 </asp:DropDownList>
                                             </div>
-                                            <label class="col-form-label col-md-1 col-sm-2 ">Plant :</label>
-                                            <div class="col-md-2 col-sm-1 ">
-                                                <asp:DropDownList ID="ddl_custexport" runat="server" CssClass="form-control" Height="30px">
-                                                    <asp:ListItem Value="0">ALL</asp:ListItem>
-                                                    <asp:ListItem>ESIE</asp:ListItem>
-                                                    <asp:ListItem>IPP</asp:ListItem>
-                                                </asp:DropDownList>
-                                            </div>
-                                            <label class="col-form-label col-md-1 col-sm-2 ">Customer:</label>
-                                            <div class="col-md-2 col-sm-2 ">
-                                                <asp:DropDownList ID="dll_customer" runat="server" CssClass="form-control" Height="30px">
-                                                    <asp:ListItem>ALL</asp:ListItem>
-                                                    <asp:ListItem>Other</asp:ListItem>
-                                                    <asp:ListItem>FTM</asp:ListItem>
-                                                </asp:DropDownList>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row">
-                                            <div class="col-md-9 col-sm-9  offset-md-3">
-                                                <asp:Button ID="btn_search" runat="server" Text="Search" CssClass="btn btn-primary" />
-                                                <asp:Button ID="btn_export" runat="server" Text="Export to csv" CssClass="btn" Style="background-color: #DC7E0E;" ForeColor="White" />
-                                                <%--<button class="btn btn-default" type="button">Go!</button>--%>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-sm-12 ">
-                    <div class="x_panel">
-                        <div class="x_title">
-                            <h2>Import Customer Forecast</h2>
-
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="x_content">
-
-                            <div class="form-horizontal form-label-left">
-
-                                <div class="form-group row">
-                                    <label class="col-form-label col-md-2 col-sm-3 offset-md-2">Start Year :</label>
-                                    <div class="col-md-2 col-sm-1 ">
-                                        <asp:TextBox ID="txt_year" runat="server" CssClass="form-control"></asp:TextBox>
-                                    </div>
-                                    <label class="col-form-label col-md-2 col-sm-1 ">Start Month :</label>
-                                    <div class="col-md-2 col-sm-1 ">
-                                        <asp:DropDownList ID="ddlMontImp" runat="server" CssClass="form-control" Height="30px">
-                                            <asp:ListItem>ALL</asp:ListItem>
-                                            <asp:ListItem>01</asp:ListItem>
-                                            <asp:ListItem>02</asp:ListItem>
-                                            <asp:ListItem>03</asp:ListItem>
-                                            <asp:ListItem>04</asp:ListItem>
-                                            <asp:ListItem>05</asp:ListItem>
-                                            <asp:ListItem>06</asp:ListItem>
-                                            <asp:ListItem>07</asp:ListItem>
-                                            <asp:ListItem>08</asp:ListItem>
-                                            <asp:ListItem>09</asp:ListItem>
-                                            <asp:ListItem>10</asp:ListItem>
-                                            <asp:ListItem>11</asp:ListItem>
-                                            <asp:ListItem>12</asp:ListItem>
-                                        </asp:DropDownList>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="form-group row ">
-                                    <div class="col-md-9 col-sm-9  offset-md-3">
-                                        <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" ForeColor="#337CCF"
-                                            NavigateUrl="~/Template/Template_Customer.csv" CssClass="txt_candara_16" Font-Size="Medium">
-                                            > > Download Template (.CSV) < <</asp:HyperLink>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="input-group">
-                                            <asp:FileUpload CssClass="form-control" ID="Fileupload_customerdata" runat="server" />
-
-
+                                    <div class="form-group row">
+                                        <div class="col-md-1 col-sm-1  offset-md-4">
+                                            <asp:Button ID="btn_search" runat="server" Text="Search" CssClass="btn btn-primary" />
                                         </div>
-
-                                        <div class="col-md-9 col-sm-9  offset-md-5">
-                                            <span class="input-group-btn">
-                                                <asp:Button ID="btn_import" runat="server" Text="Import" CssClass="btn btn-success" Height="35px" />
-                                            </span>
+                                        <div class="col-md-1 col-sm-1  offset-md-1">
+                                            <asp:Button ID="btn_export" runat="server" Text="Export to csv" CssClass="btn" Style="background-color: #DC7E0E;" ForeColor="White" />
+                                            <%--<button class="btn btn-default" type="button">Go!</button>--%>
                                         </div>
-
                                     </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-
-
-
-        <div class="row" style="margin-bottom: 10px;">
-            <div class="Center" style="padding-top: 5px; text-align: center;">
-                <label>Show</label>
-            </div>
-            <div class="col-sm-1">
-                <asp:DropDownList ID="ddl_countrow" runat="server" AutoPostBack="True" CssClass="form-control">
-                    <asp:ListItem>10</asp:ListItem>
-                    <asp:ListItem>25</asp:ListItem>
-                    <asp:ListItem>50</asp:ListItem>
-                    <asp:ListItem>100</asp:ListItem>
-                    <asp:ListItem>200</asp:ListItem>
-                    <asp:ListItem>250</asp:ListItem>
-                    <asp:ListItem>300</asp:ListItem>
-                </asp:DropDownList>
-            </div>
-            <div class="Center" style="vertical-align: central; padding-top: 5px">
-                <label>Entries</label>
+            <div class="item form-group">
+                <label
+                    class="col-form-label col-md-1 col-sm-1 label-align"
+                    for="first-name">
+                    Show row
+                </label>
+                <div class="col-md-1 col-sm-1">
+                    <asp:DropDownList ID="ddl_countrow" runat="server" AutoPostBack="True" CssClass="form-control">
+                        <asp:ListItem>10</asp:ListItem>
+                        <asp:ListItem>25</asp:ListItem>
+                        <asp:ListItem>50</asp:ListItem>
+                        <asp:ListItem>100</asp:ListItem>
+                        <asp:ListItem>200</asp:ListItem>
+                    </asp:DropDownList>
+                </div>
             </div>
         </div>
 
@@ -184,30 +102,36 @@
             <div class="col-md-12 col-sm-12  ">
                 <div class="x_panel">
                     <div class="x_content">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="card-box table-responsive">
+                        <%--  <div class="row">
+                                <div class="col-sm-12">--%>
+                        <div class="card-box table-responsive">
 
-                                    <asp:GridView ID="gv_detail" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered" AllowSorting="True">
-                                        <columns>
-                                            <asp:BoundField DataField="month" HeaderText="month" />
-                                            <asp:BoundField DataField="file_import" HeaderText="file_import" />
-                                            <asp:BoundField DataField="update_by" HeaderText="update_by" />
-                                            <asp:BoundField DataField="record_date" HeaderText="record_date">
-                                                <headerstyle wrap="False" />
-                                                <itemstyle width="120px" wrap="False" />
-                                            </asp:BoundField>
+                            <asp:GridView ID="gv_detail" runat="server" AutoGenerateColumns="False" CssClass="table table-striped table-bordered" AllowSorting="True">
+                                <Columns>
+                                    <asp:BoundField DataField="month_year" HeaderText="month_year" />
+                                    <asp:BoundField DataField="ltmc" HeaderText="ltmc" />
+                                    <asp:BoundField DataField="ltcode" HeaderText="ltcode" />
+                                    <asp:BoundField DataField="ltshift" HeaderText="ltshift">
+                                        <HeaderStyle Wrap="False" />
+                                        <ItemStyle Width="120px" Wrap="False" />
+                                    </asp:BoundField>
 
-                                        </columns>
-                                    </asp:GridView>
+                                    <asp:BoundField DataField="description" HeaderText="description" />
+                                    <asp:BoundField DataField="Line" HeaderText="Line" />
+                                    <asp:BoundField DataField="Pro_Group" HeaderText="Pro_Group" />
+                                    <asp:BoundField DataField="Work_Center" HeaderText="Work_Center" />
+                                    <asp:BoundField DataField="Len" HeaderText="Len" />
+                                    <asp:BoundField DataField="Work_Des" HeaderText="Work_Des" />
+                                    <asp:BoundField DataField="LossTimeName" HeaderText="LossTimeName" />
+                                    <asp:BoundField DataField="Loss_Time_Min" HeaderText="Loss_Time_Min" />
+                                    <asp:BoundField DataField="Loss_Time_HR" HeaderText="Loss_Time_HR" />
 
-                                </div>
-                            </div>
+                                </Columns>
+                            </asp:GridView>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </form>
 </asp:Content>

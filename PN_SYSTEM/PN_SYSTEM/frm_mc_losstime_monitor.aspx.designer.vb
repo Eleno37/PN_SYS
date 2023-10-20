@@ -50,24 +50,6 @@ Partial Public Class frm_mc_losstime_monitor
     Protected WithEvents ddlmonth As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''ddl_custexport control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ddl_custexport As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''dll_customer control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents dll_customer As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
     '''btn_search control.
     '''</summary>
     '''<remarks>
@@ -84,51 +66,6 @@ Partial Public Class frm_mc_losstime_monitor
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btn_export As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''txt_year control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txt_year As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''ddlMontImp control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ddlMontImp As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''HyperLink1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
-
-    '''<summary>
-    '''Fileupload_customerdata control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Fileupload_customerdata As Global.System.Web.UI.WebControls.FileUpload
-
-    '''<summary>
-    '''btn_import control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btn_import As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''ddl_countrow control.

@@ -4023,6 +4023,7 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="md_export_excel.vb" />
+    <Compile Include="md_query.vb" />
     <Compile Include="WebForm3.aspx.designer.vb">
       <DependentUpon>WebForm3.aspx</DependentUpon>
     </Compile>
