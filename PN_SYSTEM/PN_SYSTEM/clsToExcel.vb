@@ -119,9 +119,6 @@
             Next
         Next
 
-
-
-
         Table3ToExcel = False
         Dim ex As Object
         ex = CreateObject("Excel.Application")

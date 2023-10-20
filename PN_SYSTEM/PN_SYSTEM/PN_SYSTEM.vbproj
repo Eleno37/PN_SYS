@@ -3902,6 +3902,7 @@
     </None>
     <Content Include="WebForm5.aspx" />
     <Content Include="WebForm6.aspx" />
+    <Content Include="frm_customer_forecast.aspx" />
     <Content Include="working_calendar.aspx" />
     <Content Include="Template\Working_Calendar_Template.csv" />
     <None Include="Web References\SQL\sqlsrker.disco" />
@@ -4103,6 +4104,13 @@
     </Compile>
     <Compile Include="WebForm6.aspx.vb">
       <DependentUpon>WebForm6.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_customer_forecast.aspx.designer.vb">
+      <DependentUpon>frm_customer_forecast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_customer_forecast.aspx.vb">
+      <DependentUpon>frm_customer_forecast.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="working_calendar.aspx.designer.vb">
