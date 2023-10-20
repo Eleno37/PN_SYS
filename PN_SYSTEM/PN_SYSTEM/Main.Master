@@ -85,7 +85,7 @@
                                         <li><a href="frm_Assy_MC_Matching.aspx">Assy vs MC </a></li>
                                         <li><a href="frm_MoldList.aspx">Mold list</a></li>
                                         <li><a href="frm_AVlosstime.aspx">AV Losstime</a></li>
-                                        <li><a href="frm_customer_forecast_multi.aspx">Customer Forecast (Multi)</a></li>
+                                        <li><a href="frm_customer_forecast.aspx">Customer Forecast (Multi)</a></li>
 
                                         <%--<li><a href="index3.html">Loss time Master</a></li>--%>
                                     </ul>

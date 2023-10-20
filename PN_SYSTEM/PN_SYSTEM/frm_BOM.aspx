@@ -44,26 +44,7 @@
                         <asp:ListItem>100</asp:ListItem>
                         <asp:ListItem>200</asp:ListItem>
                         <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
-                        <asp:ListItem>250</asp:ListItem>
+
                     </asp:DropDownList>
                 </div>
                 <div class="center" style="vertical-align: central; padding-top: 5px">
